@@ -3,5 +3,8 @@ As I find them in sessions I'll keep adding to this list.
 
 13. Baby Bowser
 14. Sancuatry (Funny sound from Earthbound)
+    -Alg 14
+    -Oscillator 1 was at 44 output, modulated by 2 at 2.00 freq. That's what caused it to be bright.
 15. Tears Bass
 16. 8-bit harp
+    -One carrier for bass sound, one carrier for click. Curve for click loudness to prevent it from getting too loud.
