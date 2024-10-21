@@ -8,3 +8,4 @@ As I find them in sessions I'll keep adding to this list.
 15. Tears Bass
 16. 8-bit harp
     -One carrier for bass sound, one carrier for click. Curve for click loudness to prevent it from getting too loud.
+    -Trick on the click is to have a constant frequency for the modulator on the click. Then the fine frequency of one of the modulator waves. I remember the sweetspot was somewhere between 17 and 21.
