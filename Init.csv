@@ -1,0 +1,133 @@
+Algorithm,Feedback,Osc Sync,Transpose,Voice Name
+1,0,on,C3,INIT VOICE
+
+E,N,V,E,L,O,P,E,S
+Opr,R1,R2,R3,R4,L1,L2,L3,L4
+OP1,99,99,99,99,99,99,99,00
+OP2,99,99,99,99,99,99,99,00
+OP3,99,99,99,99,99,99,99,00
+OP4,99,99,99,99,99,99,99,00
+OP5,99,99,99,99,99,99,99,00
+OP6,99,99,99,99,99,99,99,00
+
+L,F,O
+LFO key sync,LFO wave,LFO speed,LFO delay,LFO mode,LFO PM depth,LFO AM depth
+on,Triangle,35,0,Single,0,0
+
+P,I,T,C,H, ,E,G
+PEG range,PEG velocity,PEG scaling,R1,R2,R3,R4,L1,L2,L3,L4
+8oct,off,0,99,99,99,99,50,50,50,50
+
+Key Mode
+Poly
+
+PB mode,P-bend range,P-bend step,Sus-key p,Porta time,Porta step,Random pitch
+Normal,2,0,retain,0,0,0
+
+MW PM depth,MW AM depth,MW EG-bias,BC PM depth,BC AM depth,BC EG bias,BC P-bias,AT PM depth,AT AM depth,AT EG bias,AT P-bias
+0,0,0,0,0,0,0,0,0,0,0
+
+
+
+
+O,P,E,R,A,T,O,R,,1
+Oscillator Mode,Coarse/Fine,Detune
+Frequency (ratio),1.00,0
+
+EG Rate Scaling
+0
+
+Scaling Mode,Output Level,Break Point,L-Curve,R-Curve,L-Depth,R-Depth
+Normal,99,C3,-LIN,-LIN,0,0
+
+Key Velocity,A mod sens.,P mod sens.
+0,0,3
+
+
+
+O,P,E,R,A,T,O,R,,2
+Oscillator Mode,Coarse/Fine,Detune
+Frequency (ratio),1.00,0
+
+EG Rate Scaling
+0
+
+Scaling Mode,Output Level,Break Point,L-Curve,R-Curve,L-Depth,R-Depth
+Normal,0,C3,-LIN,-LIN,0,0
+
+Key Velocity,A mod sens.,P mod sens.
+0,0,3
+
+
+
+O,P,E,R,A,T,O,R,,3
+Oscillator Mode,Coarse/Fine,Detune
+Frequency (ratio),1.00,0
+
+EG Rate Scaling
+0
+
+Scaling Mode,Output Level,Break Point,L-Curve,R-Curve,L-Depth,R-Depth
+Normal,0,C3,-LIN,-LIN,0,0
+
+Key Velocity,A mod sens.,P mod sens.
+0,0,3
+
+
+
+O,P,E,R,A,T,O,R,,4
+Oscillator Mode,Coarse/Fine,Detune
+Frequency (ratio),1.00,0
+
+EG Rate Scaling
+0
+
+Scaling Mode,Output Level,Break Point,L-Curve,R-Curve,L-Depth,R-Depth
+Normal,0,C3,-LIN,-LIN,0,0
+
+Key Velocity,A mod sens.,P mod sens.
+0,0,3
+
+
+
+O,P,E,R,A,T,O,R,,5
+Oscillator Mode,Coarse/Fine,Detune
+Frequency (ratio),1.00,0
+
+EG Rate Scaling
+0
+
+Scaling Mode,Output Level,Break Point,L-Curve,R-Curve,L-Depth,R-Depth
+Normal,0,C3,-LIN,-LIN,0,0
+
+Key Velocity,A mod sens.,P mod sens.
+0,0,3
+
+
+
+
+O,P,E,R,A,T,O,R,,6
+Oscillator Mode,Coarse/Fine,Detune
+Frequency (ratio),1.00,0
+
+EG Rate Scaling
+0
+
+Scaling Mode,Output Level,Break Point,L-Curve,R-Curve,L-Depth,R-Depth
+Normal,0,C3,-LIN,-LIN,0,0
+
+Key Velocity,A mod sens.,P mod sens.
+0,0,3
+
+
+
+
+P E R F O R M A N C E
+FC1 -> CS1,FC1 PM depth,FC1 AM depth,FC1 EG-bias,FC1 volume,FC2 PM depth,FC2 AM depth,FC2 EG-bias,FC2 volume,MC PM depth,MC AM depth,MC EG-bias,MC volume
+off,,0,0,0,0,0,0,0,0,0,0,0
+
+Total volume,Forced damp
+99,off
+
+Voice number,Micro tune 1,Key Shift,Name
+I14,Equal,0,Bass Piano
