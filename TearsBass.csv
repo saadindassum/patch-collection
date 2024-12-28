@@ -1,44 +1,44 @@
 Algorithm,Feedback,Osc Sync,Transpose,Voice Name
-14,7,on,C3,Sanctuary
+15,7,on,C2,Tears Bass
 
 E,N,V,E,L,O,P,E,S
 Opr,R1,R2,R3,R4,L1,L2,L3,L4
-OP1,86,99,34,53,99,99,00,00
-OP2,99,99,99,99,99,99,99,99
-OP3,90,99,34,55,99,99,00,00
-OP4,99,99,99,99,99,99,99,99
-OP5,99,98,50,99,90,67,67,67
-OP6,99,99,15,54,99,52,52,52
+OP1,99,33,35,69,99,80,00,00
+OP2,99,86,62,69,71,90,17,17
+OP3,87,38,18,53,99,93,00,00
+OP4,99,80,61,45,82,82,82,00
+OP5,99,59,51,57,89,78,00,00
+OP6,99,99,18,44,87,87,00,00
 
 L,F,O
 LFO key sync,LFO wave,LFO speed,LFO delay,LFO mode,LFO PM depth,LFO AM depth
-on,Triangle,26,7,Single,12,0
+off,Sine,23,0,Single,0,0
 
 P,I,T,C,H, ,E,G
 PEG range,PEG velocity,PEG scaling,R1,R2,R3,R4,L1,L2,L3,L4
-8oct,off,0,99,99,99,99,50,50,50,50
+8oct,off,0,44,53,50,45,50,50,50,50
 
 Key Mode
 Poly
 
 PB mode,P-bend range,P-bend step,Sus-key p,Porta time,Porta step,Random pitch
-Normal,2,0,retain,0,0,0
+Normal,2,0,retain,0,0,1
 
 MW PM depth,MW AM depth,MW EG-bias,BC PM depth,BC AM depth,BC EG bias,BC P-bias,AT PM depth,AT AM depth,AT EG bias,AT P-bias
-0,0,0,0,0,0,0,0,0,0,0
+70,0,0,0,0,0,0,67,0,0,+1
 
 
 
 
 O,P,E,R,A,T,O,R,,1
 Oscillator Mode,Coarse/Fine,Detune
-Frequency (ratio),1.00,0
+Frequency (ratio),1.01,0
 
 EG Rate Scaling
 0
 
 Scaling Mode,Output Level,Break Point,L-Curve,R-Curve,L-Depth,R-Depth
-Normal,84,G3,-LIN,-LIN,0,0
+Normal,82,C3,-LIN,-LIN,0,0
 
 Key Velocity,A mod sens.,P mod sens.
 0,0,3
@@ -47,13 +47,13 @@ Key Velocity,A mod sens.,P mod sens.
 
 O,P,E,R,A,T,O,R,,2
 Oscillator Mode,Coarse/Fine,Detune
-Frequency (ratio),2.00,0
+Frequency (ratio),1.00,0
 
 EG Rate Scaling
 0
 
 Scaling Mode,Output Level,Break Point,L-Curve,R-Curve,L-Depth,R-Depth
-Frequency (ratio),75,B3,-LIN,-LIN,0,99
+Normal,0,C3,-LIN,-LIN,0,0
 
 Key Velocity,A mod sens.,P mod sens.
 0,0,3
@@ -68,7 +68,7 @@ EG Rate Scaling
 0
 
 Scaling Mode,Output Level,Break Point,L-Curve,R-Curve,L-Depth,R-Depth
-Normal,99,C3,-LIN,-LIN,0,0
+Normal,0,C3,-LIN,-LIN,0,0
 
 Key Velocity,A mod sens.,P mod sens.
 0,0,3
@@ -83,7 +83,7 @@ EG Rate Scaling
 0
 
 Scaling Mode,Output Level,Break Point,L-Curve,R-Curve,L-Depth,R-Depth
-Normal,63,C3,+EXP,-LIN,99,0
+Normal,0,C3,-LIN,-LIN,0,0
 
 Key Velocity,A mod sens.,P mod sens.
 0,0,3
@@ -98,7 +98,7 @@ EG Rate Scaling
 0
 
 Scaling Mode,Output Level,Break Point,L-Curve,R-Curve,L-Depth,R-Depth
-Normal,77,C3,-LIN,-LIN,0,0
+Normal,0,C3,-LIN,-LIN,0,0
 
 Key Velocity,A mod sens.,P mod sens.
 0,0,3
@@ -114,7 +114,7 @@ EG Rate Scaling
 0
 
 Scaling Mode,Output Level,Break Point,L-Curve,R-Curve,L-Depth,R-Depth
-Normal,84,G3,-LIN,-LIN,0,0
+Normal,0,C3,-LIN,-LIN,0,0
 
 Key Velocity,A mod sens.,P mod sens.
 0,0,3
@@ -124,7 +124,7 @@ Key Velocity,A mod sens.,P mod sens.
 
 P E R F O R M A N C E
 FC1 -> CS1,FC1 PM depth,FC1 AM depth,FC1 EG-bias,FC1 volume,FC2 PM depth,FC2 AM depth,FC2 EG-bias,FC2 volume,MC PM depth,MC AM depth,MC EG-bias,MC volume
-off,,0,0,0,0,0,0,0,0,0,0,0
+on,,0,0,0,0,0,0,0,0,0,0,0
 
 Total volume,Forced damp
 99,off
